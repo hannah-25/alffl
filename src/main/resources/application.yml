@@ -7,8 +7,8 @@ spring:
       client:
         registration:
           google:
-            client_id: 453904110029-sjllaj2qpckr3n568l9ugfo8vck95ojb.apps.googleusercontent.com
-            client_secret: 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
+            client_id: test_id
+            client_secret: test_secret
             scope:
               - email
               - profile
@@ -31,5 +31,5 @@ spring:
 # JWT 설정
 jwt:
   issuer: dac05049@naver.com
-  secret_key: study-springboot
+  secret_key: test_key
 
